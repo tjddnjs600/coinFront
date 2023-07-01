@@ -1,9 +1,11 @@
 import React from "react";
+import Candlestick from "./component/js/chart/Candlestick";
 
-const App = () => {
+function App() {
   return (
     <div>
       <h1>Hello !!!</h1>
+        <Candlestick/>
     </div>
   );
 }
